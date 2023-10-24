@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Web Page</title>
+  <style>
+    body {
+      
+      background-color: #f2f2f2;
+      margin: 0;
+      display: flex;
+      
+      height: 100vh;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-rows: 10% 25% 5% 5% 10% 5% auto 10% 10%;
+      width: 100%;
+    }
+
+    .grid-item {
+    
+      /* border: 1px solid #ff4242;
+      border-radius: 5px; */
+      text-align: center;
+    }
+
+    header, footer {
+        background-color: #3f7cff;
+        min-height: 100%;
+        justify-content: center;
+        color: #ffffff;
+    }
+    h1 {
+        color: #ffffff;
+    }
+    b {
+        font-family: monospace;
+    }
+    .login-container {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+      max-width: 400px;
+    }
+    
+    .login-container h1 {
+      text-align: center;
+      font-size: 24px;
+    }
+    
+    .login-container input {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      width: 100%;
+    }
+    
+    .login-container button {
+      background-color: #007BFF;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      padding: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+  </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item">
+            <header style="font-size: 32px; font-weight: bold;">
+                Sign in
+            </header>
+        </div>
+        <div class="grid-item" style="background-color: #ccc;">
+            <img src="UserPlaceholder.png" alt="User Image" width="150px">
+        </div>
+        <div class="grid-item" style="background-color: #ccc;">
+            <b style="font-size: 24px;">Welcome!</b>
+        </div>
+        <div class="grid-item" style="background-color: #ccc;">
+            <b>Please sign in to access your content</b>
+        </div>
+        <div class="grid-item"></div>
+        <div class="grid-item">
+            <input type="text" placeholder="Username">
+        </div>
+        <div class="grid-item">
+            <input type="password" placeholder="Password">
+        </div>
+        <div class="grid-item">
+            <button style="width: 80%; font-size: 24px; color: #fff; background-color: #3f7cff; border-width: 0px;">Sign in</button>
+        </div>
+        <div class="grid-item">
+            <footer>
+                <b style="color: white;">All rights reserved Oussama Daafane</b>
+            </footer>
+        </div>
+      </div>
+</body>
+</html>
